@@ -1,0 +1,159 @@
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+}
+
+header{
+    text-align: center;
+    margin-top: 100px;
+}
+.h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top:150px;
+}
+
+nav{
+    padding: 2px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+    margin-left: 0px;
+    margin-right: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: gray;
+}
+
+.searchForm{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.contribute{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#contributeForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 1 1 auto;
+}
+
+label{
+    width: 40%;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.go{
+    margin-left: 90%;
+    margin-right: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    padding: 5px;
+}
+
+/*FIGURE OUT HOW TO ALIGN BOXES*/
+.searchInput{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80%;
+}
+#dropdown{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+.searchGo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    padding: 5px;
+}
+
+table{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+th{
+    border: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+td{
+    border: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+tr:nth-child(even) {
+    background: #333333;
+}
+
+.confirmation{
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 50px;
+}
